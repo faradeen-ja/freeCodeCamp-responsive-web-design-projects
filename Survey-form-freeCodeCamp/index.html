@@ -1,0 +1,97 @@
+<!doctype html5>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <h1 id="title">The Coding XP<h1>
+            <p id="description"> This is a survey form for [coders>}
+                answer few questions and find out how can you learn coding
+                
+            </p>
+
+            <form id="survey-form">
+                <label id="name-label" for="name"> Name:
+                    <input class="form-width-100" id="name" type="text" name="name" placeholder="Type your name"
+                        required>
+                </label>
+                <label id="email-label" for="email"> Email:
+                    <input class="form-width-100" id="email" type="email" name="email" placeholder="Type your email"
+                        required>
+                </label>
+                <label id="number-label" for="number"> Number:
+                    <input class="form-width-100" id="number" type="number" min="10" max="99" name="age"
+                        placeholder="Age" required>
+                </label>
+
+                <div class="form-dropdown">
+                    <p>Where are you in your coding voyage?</p>
+                    <select id="dropdown" class="form-width-100">
+                        <option value="new">New | XP=0 </option>
+                        <option value="intermid"> Intermids |XP=40 </option>
+                        <option value="confident">Confident |XP=60</option>
+                        <option value="advanced">Advanced |XP=90</option>
+                    </select>
+
+                </div>
+
+                <div class="form-radio">
+                    <p>Do you like Codexp?</p>
+                    <label>
+                        <input class="radio" type="radio" value="yes" name="user satisfaction" checked> Yes
+
+                    </label>
+
+                    <label>
+                        <input class="radio" type="radio" value="no" name="user satisfaction"> No :(
+                    </label>
+
+                </div>
+
+
+                <div class="form-checkbox">
+                    <p>What is your learning approach
+                        <span class="learning-ways">(Choose from all options)</span>
+                    </p>
+
+                    <label>
+                        <input name="learning ways" type="checkbox" value="self-taught ninja" class="checkbox">
+                        Self-taught ninja
+                    </label>
+
+                    <label>
+                        <input name="learning ways" type="checkbox" value="bootcamps ninja" class="checkbox"> Bootcamps
+                        ninja
+                        </lable>
+
+                        <label>
+                            <input name="learning ways" type="checkbox" value="school ninja" class="checkbox"> School
+                            ninja
+
+                </div>
+
+                <div class="form-textarea">
+
+                    <p>Any comments?
+                        <span class="user-text-input">(Leave your thoughts!)</span>
+                    </p>
+
+                    <textarea id="textarea" class="textarea" placeholder="Leave your thoughts here!"></textarea>
+
+                    <button type="submit" id="submit">Submit</button>
+
+
+
+
+                </div>
+
+            </form>
+
+
+</body>
+
+</html>
